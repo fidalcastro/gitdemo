@@ -3,4 +3,4 @@
 echo "-----------------------"
 echo "Prints Disk Utilization"
 echo "-----------------------"
-df -h
+df -h | egrep -v "(udev|tmpfs)"
