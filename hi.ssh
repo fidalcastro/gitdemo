@@ -1,0 +1,4 @@
+#!/bin/bash
+
+echo "Hi $USER, Howdy!!"
+echo "checking to push"
